@@ -1,0 +1,1 @@
+web: gunicorn tunechat.app:runserver -w 3

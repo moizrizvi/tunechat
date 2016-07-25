@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+
+<html lang="en" ng-app="AngularFlask">
+    <head>
+        <title>Series Z</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+        <link rel="stylesheet" href="/static/css/main.css">
+        <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+        <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+        <link rel="shortcut icon" href="/static/img/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="/static/img/favicon.ico" type="image/x-icon">
+        
+        <script src="/static/lib/angular/angular.js"></script>
+        <script src="/static/lib/angular/angular-resource.js"></script>
+        <script src="/static/js/app.js"></script>
+        <script src="/static/js/controllers.js"></script>
+        <script src="/static/js/services.js"></script>
+
+        <script src="/static/lib/jquery/jquery.min.js"></script>
+        <script src="/static/lib/bootstrap/bootstrap.min.js"></script>
+
+        <style>
+            #loginbutton, #signupbutton {
+                display: inline;
+{#                height: 40px;#}
+{#                color: black;#}
+                font-size: 20px;
+                text-decoration: none;
+                line-height: 36px;
+                box-sizing: border-box;
+                padding: 1px 0 0 0;
+                text-align: center;
+{#                background-color: #FFA319;#}
+                border-radius: 4px;
+                margin-top: 30px;
+            }
+            #onboard {
+                display: inline;
+            }
+        </style>
+    </head>
+    <body>
+
+        <!-- Header -->
+            <header id="header">
+                <img src="/static/img/logo.png">
+{#                <h1>TuneChat</h1>#}
+                <p>Music, better together.</p>
+            </header>
+
+            <form action="/login" method="POST" id="onboard">
+                <input type="text" name="username" placeholder="Username" style="width: 250px"> <br>
+                <input type="password" name="password" placeholder="Password" style="width: 250px">
+            </form>
+
+            <button type="submit" id="loginbutton" form="form" value="Log In" style="width: 100px">Log In</button>
+            <button type="submit" id="signupbutton" form="form" value="Sign Up" style="width: 100px">Sign Up</button>
+            <br>
+
+        <!-- Footer -->
+            <footer id="footer" style="vertical-align: middle; margin: auto; display: table; ">
+                <ul class="copyright">
+                    <li>&copy; Moiz Rizvi</li>
+                </ul>
+            </footer>
+
+        <!-- Scripts -->
+            <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+            <script src="/static/js/main.js"></script>
+
+    </body>
+</html>
