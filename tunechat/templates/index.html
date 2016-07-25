@@ -2,7 +2,7 @@
 
 <html lang="en" ng-app="AngularFlask">
     <head>
-        <title>Series Z</title>
+        <title>TuneChat</title>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
         <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -50,15 +50,25 @@
                 <p>Music, better together.</p>
             </header>
 
-            <form action="/login" method="POST" id="onboard">
-                <input type="text" name="username" placeholder="Username" style="width: 250px"> <br>
-                <input type="password" name="password" placeholder="Password" style="width: 250px">
+        <!-- Begin MailChimp Signup Form -->
+            <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+            <style type="text/css">
+                #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
+                /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+                   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+            </style>
+            <div id="mc_embed_signup" style="background-color: rgba(0,0,0,0);">
+            <form action="//tunechat.us13.list-manage.com/subscribe/post?u=a8e9bb1dafea323e8109b4685&amp;id=ee365c7e3d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <div id="mc_embed_signup_scroll">
+                <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_a8e9bb1dafea323e8109b4685_ee365c7e3d" tabindex="-1" value=""></div>
+                <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                </div>
             </form>
+            </div>
 
-            <button type="submit" id="loginbutton" form="form" value="Log In" style="width: 100px">Log In</button>
-            <button type="submit" id="signupbutton" form="form" value="Sign Up" style="width: 100px">Sign Up</button>
-            <br>
-
+        <!--End mc_embed_signup-->
         <!-- Footer -->
             <footer id="footer" style="vertical-align: middle; margin: auto; display: table; ">
                 <ul class="copyright">
