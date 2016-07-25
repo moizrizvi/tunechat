@@ -1,1 +1,1 @@
-web: gunicorn tunechat.app:get_server/(/) -w 3
+web: gunicorn tunechat.app:get_server\(\) -w 3 --preload --timeout 10 --max-requests 1200
