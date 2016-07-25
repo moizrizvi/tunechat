@@ -9,6 +9,10 @@ app = Flask(__name__)
 def home(**kwargs):
     return render_template('index.html')
 
+@app.route('/play')
+def play(**kwargs):
+    return render_template('play.html')
+
 def get_server():
     return app
 
