@@ -1,1 +1,1 @@
-web: gunicorn tunechat.app:get_server() -w 3
+web: gunicorn tunechat.app:get_server/(/) -w 3
