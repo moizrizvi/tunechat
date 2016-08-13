@@ -1,7 +1,6 @@
 #!/bin/python
-
-from flask import Flask
-from spotify import *
+import os
+from flask import Flask, render_template
 from spotipy import *
 
 app = Flask(__name__)
