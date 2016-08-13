@@ -11,6 +11,7 @@ mimerender==0.5.4
 python-dateutil==2.1
 python-mimeparse==0.1.4
 requests==1.2.3
+spotipy==2.3.8
 psycopg2==2.6
 requests==1.2.3
 Whoosh==2.7.4
